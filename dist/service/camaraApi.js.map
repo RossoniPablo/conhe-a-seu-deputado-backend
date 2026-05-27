@@ -1,0 +1,1 @@
+{"version":3,"file":"camaraApi.js","sourceRoot":"","sources":["../../src/service/camaraApi.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AAE1B,MAAM,CAAC,MAAM,SAAS,GAAG,KAAK,CAAC,MAAM,CAAC;IACpC,OAAO,EAAE,2CAA2C;IACpD,OAAO,EAAE,KAAK;IACd,OAAO,EAAE;QACP,MAAM,EAAE,kBAAkB;KAC3B;CACF,CAAC,CAAC"}

@@ -1,4 +1,4 @@
-import { camaraApi } from "./camaraApi";
+import { camaraApi } from "./camaraApi.js";
 
 export const listarDeputadosService = async () => {
   return camaraApi.get("/deputados");

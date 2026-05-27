@@ -1,0 +1,11 @@
+export declare const listarDeputadosService: () => Promise<import("axios").AxiosResponse<any, any, {}>>;
+export declare const perfilDeputadoService: (id: string) => Promise<import("axios").AxiosResponse<any, any, {}>>;
+export declare const despesasDeputadoService: (id: string, ano?: number, mes?: number, pagina?: number, itens?: number) => Promise<import("axios").AxiosResponse<any, any, {}>>;
+export declare const projetosDeputadoService: (id: string, pagina?: number, itens?: number) => Promise<import("axios").AxiosResponse<any, any, {}>>;
+export declare const historicoMandatoDeputadoService: (id: string) => Promise<import("axios").AxiosResponse<any, any, {}>>;
+export declare const profissoesDeputadoService: (id: string) => Promise<import("axios").AxiosResponse<any, any, {}>>;
+export declare const orgaosDeputadoService: (id: string) => Promise<import("axios").AxiosResponse<any, any, {}>>;
+export declare const eventosDeputadoService: (id: string, pagina?: number, itens?: number) => Promise<import("axios").AxiosResponse<any, any, {}>>;
+export declare const ocupacoesDeputadoService: (id: string) => Promise<import("axios").AxiosResponse<any, any, {}>>;
+export declare const frentesDeputadoService: (id: string) => Promise<import("axios").AxiosResponse<any, any, {}>>;
+//# sourceMappingURL=deputados.service.d.ts.map

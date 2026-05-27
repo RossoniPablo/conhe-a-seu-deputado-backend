@@ -11,9 +11,9 @@ import {
   perfilDeputadoService,
   profissoesDeputadoService,
   projetosDeputadoService,
-} from "../service/deputados.service";
-import { validarId } from "../utils/validarId";
-import { parsePagination } from "../utils/paginacao";
+} from "../service/deputados.service.js";
+import { validarId } from "../utils/validarId.js";
+import { parsePagination } from "../utils/paginacao.js";
 
 export const listaDeputadosController = async (req: Request, res: Response) => {
   try {
